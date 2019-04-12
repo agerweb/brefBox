@@ -60,11 +60,11 @@
             if (delta < 0) {
                 //向下滚动
             
-                $bigImg.find("img").css("width", w - 10)
+                $bigImg.find("img").css("width", w - 50)
             } else {
                 //向上滚动
             
-                $bigImg.find("img").css("width", w + 10)
+                $bigImg.find("img").css("width", w + 50)
 
             }
         }
